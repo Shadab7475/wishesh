@@ -32,18 +32,11 @@ function App() {
 
       {/* Modal */}
       {show && (
-        <div className="relative z-10 flex min-h-[100svh] items-center justify-center px-4 py-6 sm:px-6">
+        <div className="relative z-10 flex  items-center  justify-center px-4 py-6 sm:px-6">
 
-          <div className="relative w-full max-w-[440px] rounded-[26px] border border-white/40 bg-white/15 px-5 py-9 text-center shadow-2xl backdrop-blur-2xl sm:rounded-[32px] sm:px-10 sm:py-12">
+          <div className="relative w-full px-5 py-9 text-center shadow-2xl sm:px-10 sm:py-12">
 
-            {/* Close */}
-            <button
-              onClick={() => setShow(false)}
-              aria-label="Close"
-              className="absolute right-3 top-3 rounded-full bg-white/15 p-2 text-white transition hover:rotate-90 hover:bg-white/30 sm:right-5 sm:top-5 sm:p-3"
-            >
-              <X size={20} />
-            </button>
+           
 
             {/* Hearts */}
             <Heart
